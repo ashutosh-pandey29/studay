@@ -18,6 +18,13 @@
     <!-- inlcude font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- include jquery CDN -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- include javascript file -->
+    <script src="js/index.js"></script>
+
     <title>To DO Task Web App</title>
 </head>
 
@@ -41,14 +48,15 @@
         <div class="row">
 
             <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+
+
                 <div class="card">
                     <div class="d-flex justify-content-end border-bottom p-1 border-primary">
                         <span class='icon'>
-                            <i class="fa fa-check"></i>
-
+                            <i class="fa fa-check" data-checked_id="1" ></i>
                         </span>
                         <span class='icon'>
-                            <i class="fa fa-edit "></i>
+                            <i class="fa fa-edit " ></i>
 
                         </span>
                         <span class='icon me-3'>
@@ -58,7 +66,7 @@
 
                     </div>
                     <div class="card-body">
-                        <p style="text-align:justify;" contenteditable="false">Lorem ipsum dolor sit amet consectetur
+                        <p style="text-align:justify;" id="task-item-1" >Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Velit, voluptatem?</p>
                     </div>
                 </div>

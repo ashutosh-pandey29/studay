@@ -29,9 +29,15 @@ body{
     margin: 10px 2px 0px 10px ;
     cursor: pointer;
     transition: all ease-in-out 0.5s;
+    color: green;
 }
 .icon:hover {
     background-color: red;
     color: white;
 
+}
+
+.complete-task{
+    text-decoration: line-through;
+    text-decoration-color:black ;
 }
